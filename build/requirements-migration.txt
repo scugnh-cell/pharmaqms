@@ -1,0 +1,3 @@
+# Migration-only dependencies (not needed in production bundle)
+# Install: pip install -r build/requirements-migration.txt
+pymysql>=1.0.2
