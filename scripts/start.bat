@@ -1,6 +1,6 @@
 @echo off
 cd /d "%~dp0\.."
-start "" /B backend\PharmaQMS.exe
+start "" /B PharmaQMS.exe
 echo Starting PharmaQMS...
 timeout /t 3 /nobreak >nul
 start http://localhost:8889
